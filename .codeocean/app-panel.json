@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"named_parameters": true,
+	"general": {
+		"title": "Custom Pipeline App Panel",
+		"instructions": "Description",
+		"help_text": "Helppp"
+	},
+	"datasets": [
+		{
+			"id": "2737f122-3233-4970-be41-64fa967fadcf",
+			"name": "Internal",
+			"description": "Desc",
+			"help_text": "Help me"
+		},
+		{
+			"id": "78e52f35-76dc-4726-97da-b0c3d3904092",
+			"name": "External",
+			"description": "Desc",
+			"help_text": "Help plz"
+		}
+	],
+	"parameters": [
+		{
+			"id": "2j648LWzoTwFDf6h",
+			"name": "Input_Param",
+			"param_name": "param1",
+			"description": "Desc",
+			"help_text": "Help Text",
+			"type": "text",
+			"value_type": "string",
+			"default_value": "a",
+			"pattern": "[a-z]"
+		},
+		{
+			"id": "NWJofKd1TewdW53X",
+			"name": "List_Param",
+			"param_name": "param2",
+			"description": "Description",
+			"type": "list",
+			"value_type": "integer",
+			"default_value": "2",
+			"required": true,
+			"extra_data": [
+				"1",
+				"2",
+				"3"
+			]
+		}
+	]
+}
